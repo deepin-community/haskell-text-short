@@ -1,5 +1,52 @@
-template-repository (1.0-1) unstable; urgency=medium
+haskell-text-short (0.1.5-1) unstable; urgency=medium
 
-  * Initial release
+  * Declare compliance with Debian policy 4.6.1
+  * New upstream release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Fri, 22 Jul 2022 19:14:27 +0300
+
+haskell-text-short (0.1.3-2) unstable; urgency=medium
+
+  * Patch for newer base and ghc-prim.
+
+ -- Clint Adams <clint@debian.org>  Thu, 04 Jun 2020 08:31:02 -0400
+
+haskell-text-short (0.1.3-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Wed, 03 Jun 2020 20:35:38 -0400
+
+haskell-text-short (0.1.2-5) unstable; urgency=medium
+
+  * Enable testsuite.
+
+ -- Clint Adams <clint@debian.org>  Wed, 28 Aug 2019 21:49:38 -0400
+
+haskell-text-short (0.1.2-4) unstable; urgency=medium
+
+  * Remove build dependency on libghc-text-dev (provided by ghc-8.4.3)
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Mon, 01 Oct 2018 13:47:45 +0300
+
+haskell-text-short (0.1.2-3) unstable; urgency=medium
+
+  [ Clint Adams ]
+  * Set Rules-Requires-Root to no.
+
+  [ Ilias Tsitsimpis ]
+  * Bump debhelper compat level to 10
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 30 Sep 2018 21:23:00 +0300
+
+haskell-text-short (0.1.2-2) unstable; urgency=medium
+
+  * Bump to Standards-Version 4.1.4.
+
+ -- Clint Adams <clint@debian.org>  Tue, 17 Apr 2018 00:58:38 -0400
+
+haskell-text-short (0.1.2-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Sean Whitton <spwhitton@spwhitton.name>  Thu, 29 Mar 2018 10:17:40 -0700
